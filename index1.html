@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website Optimizer</title>
-  <link rel="stylesheet" href="index1.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Speed Optimization</title>
+  <link rel="stylesheet" href="index1.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
 </head>
 <body>
-
-  <!-- Navbar -->
   <header>
     <div class="logo">⚡</div>
     <nav>
@@ -21,114 +21,169 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero">
     <h1>Make Your Website Way <span>Faster!</span></h1>
-    <p>Hello there, your website is slow. Avoid each second it takes to load your website loses you more customers.</p>
-    <div class="form-box">
-      <input type="text" placeholder="Name">
-      <input type="text" placeholder="Website">
-      <input type="text" placeholder="Name of business">
-      <input type="url" placeholder="Website URL">
-      <button>Analyze</button>
-    </div>
+    <p>Hello there, your website is slow. And each second it takes to load your website loses you 60% more customers. We make your website FAST!<br>Request a free analysis below.</p>
+
+    <form class="analysis-form">
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="text" placeholder="Name of business" required>
+      <input type="url" placeholder="Website URL" required>
+      <button type="submit">Analyze</button>
+    </form>
   </section>
 
-  <!-- Progress + About Section -->
-  <section class="about-section">
-    <div class="progress-container">
-      <div class="progress-item">
-        <span>Optimizing Javascript loading time</span>
-        <div class="progress-bar"><div class="progress-fill" style="width:90%"></div></div>
+  <section class="optimization-section">
+    <div class="optimization-left">
+      <div class="progress-bar">
+        <label>Optimising Javascript loading time</label>
+        <div class="bar"><div style="width: 75%;">75%</div></div>
       </div>
-      <div class="progress-item">
-        <span>Reducing HTTP Calls</span>
-        <div class="progress-bar"><div class="progress-fill" style="width:85%"></div></div>
+      <div class="progress-bar">
+        <label>Speeding up Queries</label>
+        <div class="bar"><div style="width: 80%;">80%</div></div>
       </div>
-      <div class="progress-item">
-        <span>Optimizing Image loading</span>
-        <div class="progress-bar"><div class="progress-fill" style="width:80%"></div></div>
+      <div class="progress-bar">
+        <label>Optimising Image loading time</label>
+        <div class="bar"><div style="width: 70%;">70%</div></div>
       </div>
-      <div class="progress-item">
-        <span>Optimizing CSS</span>
-        <div class="progress-bar"><div class="progress-fill" style="width:75%"></div></div>
+      <div class="progress-bar">
+        <label>Optimising CSS</label>
+        <div class="bar"><div style="width: 75%;">75%</div></div>
       </div>
-      <div class="progress-item">
-        <span>Optimizing Database</span>
-        <div class="progress-bar"><div class="progress-fill" style="width:70%"></div></div>
+      <div class="progress-bar">
+        <label>Optimising Database</label>
+        <div class="bar"><div style="width: 85%;">85%</div></div>
       </div>
     </div>
-    <div class="about-text">
+
+    <div class="about-us">
       <h2>About Us</h2>
-      <p>We specialize in building websites that are fast and reliable. We have worked with over 50+ brands to optimize their web performance.</p>
+      <p>My passion for building websites started since 2013 and since then I have helped companies around the world build amazing websites and products that create real value for the business and users.</p>
+      <p>I enjoy solving problems with clean scalable solutions and I also have a genuine passion for inspiring design.</p>
+      <p>I am a fullstack developer focusing on core frontend and backend technologies which include HTML, CSS, Javascript, React and other core languages.</p>
     </div>
   </section>
 
-  <!-- Brands Section -->
-  <section class="brands">
-    <h3>Over 50+ Optimized Websites</h3>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8yGPyAHDX-ZD4H1JndXavrj0xtcBJ0voZYA&s" alt="Google">
-    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/042469153784103.Y3JvcCwxMzU1LDEwNjAsMjcxLDA.jpg" alt="Bplt">
-    <img src="https://static.vecteezy.com/system/resources/thumbnails/019/766/240/small/amazon-logo-amazon-icon-transparent-free-png.png" alt="Amazon">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkWoH3EfvmlQAPaWfIoVlDjwrpFn0AkLlybQ&s" alt="PayPal">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQeRoc_BhrP-jahuwf0Hrxe48LiP6DiHWiiw&s" alt="Netflix">
-  </section>
-
-  <!-- Recent Works Section -->
-  <section class="recent-works">
-    <h2>Recent Works</h2>
-    <div class="work-grid">
-      <div class="work-card">
-        <h3>myplugin.com</h3>
-        <p>PageSpeed Insights</p>
-        <div class="circle-container">
-          <div class="circle before" style="--percent: 25%">25%</div>
-          <div class="circle after" style="--percent: 90%">90%</div>
-        </div>
-      </div>
-      <div class="work-card">
-        <h3>wefiximages.net</h3>
-        <p>PageSpeed Insights</p>
-        <div class="circle-container">
-          <div class="circle before" style="--percent: 30%">30%</div>
-          <div class="circle after" style="--percent: 90%">90%</div>
-        </div>
-      </div>
-      <div class="work-card">
-        <h3>xyzapp.io</h3>
-        <p>PageSpeed Insights</p>
-        <div class="circle-container">
-          <div class="circle before" style="--percent: 20%">20%</div>
-          <div class="circle after" style="--percent: 85%">85%</div>
-        </div>
-      </div>
+   <section class="optimized-websites-section">
+    <h2>Over 50+ <span>Optimized</span> Websites</h2>
+    <div class="logos">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Bolt_logo.svg" alt="Bolt" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix" />
     </div>
   </section>
 
-  <!-- Testimonials -->
+  <div class="container">
+    <h2 class="section-title">Recent Works</h2>
+    <div class="cards">
+      <div class="card">
+        <a href="#">neilpatel.com</a>
+        <h3>PageSpeed Insights</h3>
+        <div class="progress">
+          <div class="circle before">25%</div>
+          <div class="rocket">🚀</div>
+          <div class="circle after">90%</div>
+        </div>
+        <div class="features">
+          <div>Javascript loading</div>
+          <div>Image loading</div>
+          <div>CSS loading</div>
+          <div>Database speed</div>
+        </div>
+      </div>
+      <div class="card">
+        <a href="#">webmanga.net</a>
+        <h3>PageSpeed Insights</h3>
+        <div class="progress">
+          <div class="circle before">25%</div>
+          <div class="rocket">🚀</div>
+          <div class="circle after">90%</div>
+        </div>
+        <div class="features">
+          <div>Javascript loading</div>
+          <div>Image loading</div>
+          <div>CSS loading</div>
+          <div>Database speed</div>
+        </div>
+      </div>
+      <div class="card">
+        <a href="#">wapzar.com</a>
+        <h3>PageSpeed Insights</h3>
+        <div class="progress">
+          <div class="circle before">25%</div>
+          <div class="rocket">🚀</div>
+          <div class="circle after">90%</div>
+        </div>
+        <div class="features">
+          <div>Javascript loading</div>
+          <div>Image loading</div>
+          <div>CSS loading</div>
+          <div>Database speed</div>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>  
+
   <section class="testimonials">
     <h2>What my clients say</h2>
-    <div class="testimonial-card">
-         <strong>- Charles Om</strong>
-      <p>“Great service, very professional and quick results. My website loads twice as fast now!”</p>
-     
+    <div class="cards">
+      <div class="card">
+        <div class="card-header">
+          <img src="https://i.pravatar.cc/60?img=5" alt="client1">
+          <div>
+            <h3>Charles Dim</h3>
+            <p>Lead Designer, Netflix</p>
+          </div>
+        </div>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Nulla tincidunt in malesuada tristique arcu non eu lectus orci. 
+          Risus sed tristique lectus fusce lacus.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <img src="https://i.pravatar.cc/60?img=10" alt="client2">
+          <div>
+            <h3>Margaret Wills</h3>
+            <p>CEO, Ebay</p>
+          </div>
+        </div>
+        <p class="card-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Nulla tincidunt in malesuada tristique arcu non eu lectus orci. 
+          Risus sed tristique lectus fusce lacus.
+        </p>
+      </div>
     </div>
-    <div class="testimonial-card">
-         <strong>- Megan Wills</strong>
-      <p>“We saw an instant improvement in our traffic after optimization. Highly recommended.”</p>
-     
+
+    <div class="dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
     </div>
   </section>
 
-  <!-- Footer -->
   <footer>
-    <div>© Copyright 2021. All rights reserved | Connect with me ⚡</div>
-    <div class="social">
-            Connect with me: 
-            <span>🔗</span>
-            <span>🔗</span>
-            <span>🔗</span>
-        </div>
+    <div class="footer-left">
+      ⚡
+    </div>
+    <div class="footer-center">
+      © Copyright 2021. All right reserved
+    </div>
+    <div class="footer-right">
+      <span>Connect with me:</span>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
   </footer>
 
 </body>
