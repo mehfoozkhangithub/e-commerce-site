@@ -13,7 +13,7 @@ body {
 
 .content-container {
   flex-grow: 1;
-  background-color: #364f6b;
+  background-color: #f2f2f2;
   padding: 40px 0;
 }
 
@@ -22,7 +22,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0 40px;
-  color: #ffffff;
+  color: #333333;
 }
 
 .form-title {
@@ -54,8 +54,8 @@ body {
   width: 50%;
   padding: 15px;
   border: none;
-  background-color: #2b3e52;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #555555;
   font-size: 1em;
 }
 
@@ -63,14 +63,14 @@ textarea {
   width: 100%;
   padding: 15px;
   border: none;
-  background-color: #2b3e52;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #555555;
   font-size: 1em;
   resize: none;
 }
 
 ::placeholder {
-  color: #cccccc;
+  color: #aaaaaa;
   opacity: 1;
 }
 
@@ -91,7 +91,7 @@ textarea {
 }
 
 .main-footer {
-  background-color: #222f3e;
+  background-color: #233142;
   color: #cccccc;
   padding: 20px 0;
   font-size: 0.9em;
@@ -138,5 +138,3 @@ textarea {
 .social-links a:hover {
   color: #e9714a;
 }
-
-
