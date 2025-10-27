@@ -91,7 +91,8 @@ textarea {
 }
 
 .main-footer {
-  background-color: #233142;
+  /* background-color: #233142; */
+  background-color: #cccccc;
   color: #cccccc;
   padding: 20px 0;
   font-size: 0.9em;
